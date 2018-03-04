@@ -1,0 +1,39 @@
+[INFO  - 2018-02-20T09:49:08.171Z] GhostDriver - Main - running on port 58071
+[INFO  - 2018-02-20T09:49:11.616Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":false,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2018-02-20T09:49:11.616Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - page.customHeaders:  - {}
+[INFO  - 2018-02-20T09:49:11.616Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36","phantomjs.page.settings.loadImages":false}
+[INFO  - 2018-02-20T09:49:11.616Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4d9559a0-1623-11e8-a2cf-a5e1b833a6e5
+[ERROR - 2018-02-20T09:49:11.647Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept\":\"application/json\",\"Accept-Encoding\":\"identity\",\"Content-Length\":\"72\",\"Content-Type\":\"application/json;charset=UTF-8\",\"Host\":\"127.0.0.1:58071\",\"User-Agent\":\"Python http auth\",\"X-Lantern-Version\":\"4.4.1\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"pageLoad\\\": 30000, \\\"sessionId\\\": \\\"4d9559a0-1623-11e8-a2cf-a5e1b833a6e5\\\"}\",\"url\":\"/timeouts\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"timeouts\",\"directory\":\"/\",\"path\":\"/timeouts\",\"relative\":\"/timeouts\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/timeouts\",\"queryKey\":{},\"chunks\":[\"timeouts\"]},\"urlOriginal\":\"/session/4d9559a0-1623-11e8-a2cf-a5e1b833a6e5/timeouts\"}","line":546,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_postTimeout@phantomjs://code/session_request_handler.js:546:73\n_handle@phantomjs://code/session_request_handler.js:148:25\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-20T09:49:19.161Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - page.onError - msg: Name: OpenYoloError
+Message: unsupportedBrowser: Unsupported browser - API disabled
+----------
+Stack: 
+
+ [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-20T09:49:19.161Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - page.onError - stack:
+  _reportToConsole (https://s.pinimg.com/webapp/js/entryChunk-www-unauth-6edceb127ae300bc087d.js:29)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-20T09:49:27.392Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - page.onError - msg: Name: OpenYoloError
+Message: unsupportedBrowser: Unsupported browser - API disabled
+----------
+Stack: 
+
+ [object Object]
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-20T09:49:27.392Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - page.onError - stack:
+  _reportToConsole (https://s.pinimg.com/webapp/js/entryChunk-www-unauth-6edceb127ae300bc087d.js:29)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-20T09:49:29.285Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'Object.assign')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-02-20T09:49:29.285Z] Session [4d9559a0-1623-11e8-a2cf-a5e1b833a6e5] - page.onError - stack:
+  (anonymous function) (https://static.xx.fbcdn.net/rsrc.php/v3iG-04/yo/l/en_US/8B2PJlSOY6k.js:17)
+
+  phantomjs://platform/console++.js:263 in error
